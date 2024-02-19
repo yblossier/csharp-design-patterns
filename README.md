@@ -3,9 +3,9 @@ A project to illustrate the different design patterns in C#
 
 ## Roadmap
 
-- [ ] Factory
-- [ ] Abstract factory
-- [ ] Adaptor
+- [X] Factory
+- [X] Abstract factory
+- [X] Adaptor
 - [ ] Bridge
 - [ ] Chain of responsibility
 - [ ] Command
