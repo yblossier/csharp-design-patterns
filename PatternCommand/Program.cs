@@ -1,0 +1,32 @@
+﻿using PatternCommand.Pattern;
+
+Console.WriteLine("      C# Design Pattern - Command");
+Console.WriteLine("-------------------------------------------");
+Console.WriteLine();
+Console.WriteLine("I have found the remote for the TV !");
+var remote = new Remote();
+Console.WriteLine("See what there is as TV shows today :");
+remote.StoreAndExecute(new PowerOn());
+Console.WriteLine();
+Console.WriteLine("Nothing interesting on this channel, see the others :");
+remote.StoreAndExecute(new ProgramUp());
+remote.StoreAndExecute(new ProgramUp());
+remote.StoreAndExecute(new ProgramDown());
+remote.StoreAndExecute(new ProgramUp());
+remote.StoreAndExecute(new ProgramUp());
+remote.StoreAndExecute(new ProgramDown());
+remote.StoreAndExecute(new ProgramUp());
+Console.WriteLine();
+Console.WriteLine("CARNAVAL on TV, great program. Animation and music. We have to hear that much :");
+remote.StoreAndExecute(new VolumeUp());
+remote.StoreAndExecute(new VolumeUp());
+remote.StoreAndExecute(new VolumeUp());
+Console.WriteLine();
+Console.WriteLine("Show is now ended. Go to bed now :");
+remote.StoreAndExecute(new PowerOff());
+Console.WriteLine();
+
+Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine("Press a key to end the program");
+Console.ReadKey();

@@ -8,17 +8,17 @@ A project to illustrate the different design patterns in C#
 - [X] Adaptor
 - [ ] Bridge
 - [ ] Chain of responsibility
-- [ ] Command
+- [X] Command
 - [ ] Iterator
 - [ ] Mediator
 - [ ] Builder
 - [ ] Prototype
 - [ ] Composite
-- [ ] Decorator
+- [X] Decorator
 - [ ] Memento
 - [ ] Observer
-- [ ] State
-- [ ] Singleton
-- [ ] Facade
+- [X] State
+- [X] Singleton
+- [X] Facade
 - [ ] Visitor
 - [ ] Proxy
